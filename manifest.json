@@ -1,0 +1,12 @@
+{
+  "name": "Tý học tiếng Anh",
+  "short_name": "Tý học tiếng Anh",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBFAFF",
+  "theme_color": "#7A4FD6",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
