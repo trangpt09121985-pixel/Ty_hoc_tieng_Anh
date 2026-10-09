@@ -1,6 +1,6 @@
 // Lưu bản sao trang trên máy để con chơi được cả khi mất mạng.
 // Khi cập nhật index.html, đổi số phiên bản dưới đây để máy tải bản mới.
-const CACHE = 'ty-hoc-tieng-anh-v2';
+const CACHE = 'ty-hoc-tieng-anh-v3';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
