@@ -1,6 +1,6 @@
 // Lưu bản sao trang trên máy để con chơi được cả khi mất mạng.
 // Có mạng: luôn tải bản mới nhất từ GitHub (không dùng bản cũ trong bộ nhớ đệm).
-const CACHE = 'ty-hoc-tieng-anh-v5';
+const CACHE = 'ty-hoc-tieng-anh-v6';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES.map(f => new Request(f, {cache: 'reload'})))));
